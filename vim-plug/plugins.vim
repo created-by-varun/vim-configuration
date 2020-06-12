@@ -25,6 +25,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
     " Vim fugitive for git
     Plug 'tpope/vim-fugitive'
+    " color highlighting
+    Plug 'ap/vim-css-color'
+    
 
 call plug#end()
 
