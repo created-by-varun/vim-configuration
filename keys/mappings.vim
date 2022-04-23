@@ -5,11 +5,14 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " Tab navigation
-nnoremap tn :tabnew<Space>
+nnoremap tn :tabnew<CR>
 nnoremap tk :tabnext<CR>
 nnoremap tj :tabprev<CR>
 nnoremap th :tabfirst<CR>
 nnoremap tl :tablast<CR>
+
+" escape from search resrults
+map <silent> <esc> :noh <CR>
 
 " I hate escape more than anything else
 inoremap jk <Esc>
@@ -23,7 +26,8 @@ vnoremap > >gv
 nnoremap <C-s> :w<CR>
 " Use control-c instead of escape
 nnoremap <C-c> <Esc>
-
+" quit without saving
+nnoremap <C-q> :q!<CR>
 
 " Use alt + hjkl to resize windows
 nnoremap <M-j>    :resize -2<CR>

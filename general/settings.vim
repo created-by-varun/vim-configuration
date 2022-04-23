@@ -1,6 +1,7 @@
 " set leader key
 let g:mapleader = ","
 
+set so=3
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set encoding=utf-8                      " The encoding displayed

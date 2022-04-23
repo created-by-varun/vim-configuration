@@ -15,8 +15,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf.vim'
     " Onedark theme
     Plug 'joshdick/onedark.vim'
-    " Airline
-    Plug 'vim-airline/vim-airline'
     " Vim surround
     Plug 'tpope/vim-surround'
     " Emmet vim
@@ -27,6 +25,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-fugitive'
     " color highlighting
     Plug 'ap/vim-css-color'
+	" install with vim-plug
+	Plug 'Rigellute/shades-of-purple.vim'
+    Plug 'itchyny/lightline.vim'
+    Plug 'kqito/vim-easy-replace'
     
 
 call plug#end()
